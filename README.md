@@ -24,10 +24,24 @@ BloodConnect is a Blood Donor Management System designed to connect blood donors
 - SQLite
 - REST API
 
+## Screenshots
+
+### Home Page
+![BloodConnect Home Page](screenshots/home-page.png)
+
+### Donor Registration
+![Donor Registration](screenshots/donor-registration.png)
+
+### Registered Donors
+![Registered Donors](screenshots/registered-donors-phones-blurred.png)
+
+### Registration Success
+![Registration Success](screenshots/registration-success.png)
+
 ## Project Structure
 
 ```text
-Blood donor website/
+BloodConnect/
 │
 ├── index.html
 ├── style.css
@@ -35,6 +49,13 @@ Blood donor website/
 ├── README.md
 ├── .gitignore
 │
+├── screenshots/
+│   ├── home-page.png
+│   ├── donor-registration.png
+│   ├── registered-donors-phones-blurred.png
+│   └── registration-success.png
+│
 └── backend/
     ├── app.py
     └── database.py
+```
